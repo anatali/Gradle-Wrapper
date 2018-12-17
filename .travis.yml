@@ -12,4 +12,9 @@ install: false
 script: 
   - ./gradlew clean buildDashboard
 
-
+deploy:
+  provider: surge
+  project: build/reports/
+  domain:2018-scm-nat-report.surge.sh
+    on:
+      all_branches: true

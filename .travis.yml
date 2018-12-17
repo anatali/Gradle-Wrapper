@@ -7,7 +7,6 @@ jdk:
   - openjdk11
   - oraclejdk11
 
-
 env:
   global:   #SEMPRE
     - SURGE_LOGIN=antonio.natali@unibo.it

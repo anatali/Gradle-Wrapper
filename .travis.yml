@@ -1,7 +1,15 @@
 language: java
 
+#syntax sugar for matrix integrator
+jdk:
+  - openjdk7
+  - openjdk8
+  - openjdk11
+  - oraclejdk11
+
+
 env:
-  global:
+  global:   #SEMPRE
     - SOURCE_LOGIN=antonio.natali@unibo.it
     - secure: "xYXA4cef6czMiM+GutPgZF7Nl/6GLJ8yHxO1Ox8FbHKKftYHxqNAXfRn2Wdz0mvlEmmPs0Vmyi7ZIU4ap61h7ltaDtAXIRFEqS2a2sk/mrcem2m3LvMm0ijodXIvk5B9k1pmUNb1hD7R7HN06Z0EA5G6DWtderruzAZz5AnghJoqN2C1lzYSONjGy5xlHF8RlGXF3xnFGpQfJqZpLtXuucKGNH8c0aKoIsO+hYhmDIrm01hLwtUYQb4EdAPZQX59ldRIbA0Rx4V+DKnB325di/3Lnjj+JQMlNAdXtZNFl2duEyDzJcDn2GVuGX6aUZYqnVBnRszVQQEny0dsgEL55lGkuGr94JxUZB2+I24KEdALIWiTvy8vFpIrvDI743S09B1XG4vh5U1IyLy46H2fXjEQ0R+SGZuJY1Ak3m+b74AAN2ZlV6a0iBLoH+zpxJEMdF/jPPbGCn+Osc3phwJtcUq32ZyRFEWNKrOPkxcyPuDFkJSQcuVHkxiLmpRju0Vb1X59h/LsJQnlgoEcytfyukj98tv/3hGGQIyRy4yiBh4JsOiSpEDqAYFtpo7cq3dMTbEJf1we76LaegZNBjg1yAbb9GPj4c5L4bfgycFl6GHFCoAqj8B/LCLkMfiE433DQ051kHd7Ds8JHa9VCNZip2+TD9kiWbNCTO5aY6S0VBY="
 

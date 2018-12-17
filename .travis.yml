@@ -1,1 +1,12 @@
 language: java
+
+#disable travis install phase (non lanciare i tuoi default)
+install: false
+
+#Execute custom build (syntax light superset json molto vincolata e-.e blank blank - )  SONO SU LINUX
+script: 
+  - ./gradlew clean buildDashboard
+
+
+
+

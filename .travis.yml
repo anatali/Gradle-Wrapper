@@ -16,5 +16,6 @@ deploy:
   provider: surge
   project: build/reports/
   domain: scm-nat-report.surge.sh
-    on:
-      all_branches: true
+  skip_cleanup: true
+  on:
+    all_branches: true
